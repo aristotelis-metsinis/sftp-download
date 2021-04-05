@@ -14,24 +14,24 @@ Tested with Python 2.7.6 and 3.8.7
 * usage
 
 <pre>
-	$ ./download.py -h
-	usage: download.py [-h] -H HOST [-P PORT] -s SOURCE -d DESTINATION -u USER -p PASSWORD [--delete]
-	
-	A script that connects and logs into a specified host at a predefined port with a given username, and password and copies over "SFTP" all files from a remote source directory to a local destination directory. User can also choose to delete the remote files that have been already downloaded.
-	
-	optional arguments:
-	-h, --help            	show this help message and exit
-	-H HOST, --host HOST  	hostname or IP address
-	-P PORT, --port PORT  	server port, default = 22
-	-s SOURCE, --source SOURCE
-							remote directory to fetch files from
-	-d DESTINATION, --destination DESTINATION
-							local folder to store fetched files to
-	-u USER, --user USER  	username for login
-	-p PASSWORD, --password PASSWORD
-							password for login
-	--delete              	delete remote files
-	$
+$ ./download.py -h
+usage: download.py [-h] -H HOST [-P PORT] -s SOURCE -d DESTINATION -u USER -p PASSWORD [--delete]
+
+A script that connects and logs into a specified host at a predefined port with a given username, and password and copies over "SFTP" all files from a remote source directory to a local destination directory. User can also choose to delete the remote files that have been already downloaded.
+
+optional arguments:
+-h, --help            	show this help message and exit
+-H HOST, --host HOST  	hostname or IP address
+-P PORT, --port PORT  	server port, default = 22
+-s SOURCE, --source SOURCE
+						remote directory to fetch files from
+-d DESTINATION, --destination DESTINATION
+						local folder to store fetched files to
+-u USER, --user USER  	username for login
+-p PASSWORD, --password PASSWORD
+						password for login
+--delete              	delete remote files
+$
 </pre>
 
 * execution
