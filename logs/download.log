@@ -1,0 +1,48 @@
+2021-04-05 17:03:01,380 - root - INFO - ---------------------------------------------------------------------------------
+2021-04-05 17:03:01,381 - root - INFO - Logging to remote server 'sftp://s-ftp.internal.com:22/TEST-DIR'
+2021-04-05 17:03:01,478 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_7.2p2)
+2021-04-05 17:03:02,007 - paramiko.transport - INFO - Authentication (password) successful!
+2021-04-05 17:03:02,194 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2021-04-05 17:03:02,313 - root - CRITICAL - No remote files found
+2021-04-05 17:03:02,314 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2021-04-05 17:03:55,300 - root - INFO - ---------------------------------------------------------------------------------
+2021-04-05 17:03:55,301 - root - INFO - Logging to remote server 'sftp://s-ftp.internal.com:22/TEST-DIR'
+2021-04-05 17:03:55,368 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_7.2p2)
+2021-04-05 17:03:55,660 - paramiko.transport - INFO - Authentication (password) successful!
+2021-04-05 17:03:55,859 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2021-04-05 17:03:56,046 - root - INFO - Found 3 remote files
+2021-04-05 17:03:56,046 - root - INFO - File #  1 : '2021050413_01.txt'
+2021-04-05 17:03:56,046 - root - INFO - File #  2 : '2021050413_02.txt'
+2021-04-05 17:03:56,046 - root - INFO - File #  3 : '2021050413_03.txt'
+2021-04-05 17:03:56,047 - root - WARNING - Folder 'local/' does not exist, creating
+2021-04-05 17:03:56,047 - root - INFO - Downloading remote files
+2021-04-05 17:03:56,670 - root - INFO - Downloading remote files completed
+2021-04-05 17:03:56,713 - root - INFO - Deleting remote file '2021050413_01.txt' 
+2021-04-05 17:03:56,757 - root - INFO - Deleting remote file '2021050413_02.txt' 
+2021-04-05 17:03:56,797 - root - INFO - Deleting remote file '2021050413_03.txt' 
+2021-04-05 17:03:56,797 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2021-04-05 17:06:29,029 - root - INFO - ---------------------------------------------------------------------------------
+2021-04-05 17:06:29,029 - root - INFO - Logging to remote server 'sftp://s-ftp.internal.com:22/TEST-DIR'
+2021-04-05 17:06:29,116 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_7.2p2)
+2021-04-05 17:06:29,342 - paramiko.transport - INFO - Authentication (password) successful!
+2021-04-05 17:06:29,525 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2021-04-05 17:06:29,650 - root - CRITICAL - No remote files found
+2021-04-05 17:06:29,650 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2021-04-05 17:07:42,326 - root - INFO - ---------------------------------------------------------------------------------
+2021-04-05 17:07:42,326 - root - INFO - Logging to remote server 'sftp://s-ftp.internal.com:22/TEST-DIR'
+2021-04-05 17:07:42,394 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_7.2p2)
+2021-04-05 17:07:42,634 - paramiko.transport - INFO - Authentication (password) successful!
+2021-04-05 17:07:42,843 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2021-04-05 17:07:43,005 - root - INFO - Found 1 remote files
+2021-04-05 17:07:43,005 - root - INFO - File #  1 : '2021050413_04.txt'
+2021-04-05 17:07:43,005 - root - INFO - Downloading remote files
+2021-04-05 17:07:43,343 - root - INFO - Downloading remote files completed
+2021-04-05 17:07:43,383 - root - INFO - Deleting remote file '2021050413_04.txt' 
+2021-04-05 17:07:43,383 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2021-04-05 17:08:11,642 - root - INFO - ---------------------------------------------------------------------------------
+2021-04-05 17:08:11,643 - root - INFO - Logging to remote server 'sftp://s-ftp.internal.com:22/TEST-DIR'
+2021-04-05 17:08:11,695 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_7.2p2)
+2021-04-05 17:08:11,929 - paramiko.transport - INFO - Authentication (password) successful!
+2021-04-05 17:08:12,123 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2021-04-05 17:08:12,266 - root - CRITICAL - No remote files found
+2021-04-05 17:08:12,267 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
